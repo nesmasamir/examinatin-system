@@ -1,0 +1,135 @@
+ body {
+     color: #011b47;
+     font-size: 1.2rem;
+     /* height: 150vh; */
+ }
+
+
+ .choice {
+     cursor: pointer;
+     padding: 5px;
+     background-color: #ffffff;
+     transition: all 0.3s;
+     border-radius: 5px;
+
+ }
+
+ .test-container {
+
+     border-radius: 10px;
+     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+ }
+
+ .exam-header {
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     background-color: #0e3757;
+     color: #efefef;
+ }
+
+ button {
+     /* border: 1px solid #0e3757; */
+     border: #748ab1;
+     border-radius: 5px;
+     padding: 10px;
+     transition: all 0.3s;
+
+     /* opacity: ; */
+
+ }
+
+ .examContainer {
+     background-color: #c8cfe9;
+     position: relative;
+     /* height: 100vh; */
+
+ }
+
+ #question {
+     border: 1px solid #ffffff;
+     padding: 15px;
+     border-radius: 5px;
+     margin-bottom: 30px;
+     background-color: #ffffff;
+
+ }
+
+ .prevNext-btns {
+     position: absolute;
+     bottom: 10px;
+
+
+ }
+
+ .prevNext-btns button {
+     border: 1.5px solid #ffab18;
+     color: #0e3757;
+ }
+
+ .subMark-btns button {
+     background-color: #c8cfe9;
+     font-size: 1.3rem;
+
+ }
+
+ .exam-content {
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     overflow: hidden;
+
+ }
+
+ .quesAns-container {
+     padding: 1rem 0px;
+
+
+ }
+
+ .markListContainer {
+     background-color: #efefef;
+ }
+
+ .markTitle {
+     font-size: 2rem;
+ }
+
+
+
+ button:hover {
+     background-color: #0e3757;
+     color: #fff;
+     border: none;
+ }
+
+ /* ///////////////////////////////////////////style marked questions */
+
+ .markedStyle {
+     background-color: #c8cfe9;
+     border-radius: 10px;
+     border: 1px solid #c8cfe9;
+     padding: 7px;
+     color: #0e3757;
+     font-size: 1.3rem;
+     font-weight: 400;
+     margin-top: 10px;
+     cursor: pointer;
+
+ }
+
+ /* ///////////////////////////////////////////style selected answer */
+
+ .selectedAnswer {
+     background-color: #ffab18;
+ }
+
+ .notSelected {
+     background-color: #fff;
+ }
+
+ .closeBtn {
+     float: right;
+     color: red;
+     background-color: #fff;
+     padding: 1px 6px;
+     border-radius: 50%;
+ }

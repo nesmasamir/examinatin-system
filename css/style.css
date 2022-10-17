@@ -1,0 +1,66 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+
+}
+
+img{
+   /* height: 450px; */
+   /* width: 200px; */
+object-fit: cover;   
+}
+
+
+
+p{
+    font-size: 3rem;
+    color: #042c4b;
+    font-weight: 400;
+}
+
+#btns{
+    font-size: 1.5rem;
+
+}
+#btn-regestire{
+    background-color: #042c4b;
+}
+
+ button{
+    background-color: #ffa50c;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-left: 10PX;
+}
+
+
+#btns a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.content{
+   
+    font-size: 1.5rem;
+    
+}
+.introContent{
+    margin-bottom: 20px;
+}
+
+#btns button:hover{
+   background-color:#042c4b;
+   
+} 
+
+
